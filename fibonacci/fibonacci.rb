@@ -3,7 +3,14 @@ require 'pry-byebug'
 # but you may remove it if you like.
 
 def fibonacci(n)
-  # your code here :)
+
+  x,y = 0, 1
+
+  while x <= n    lets say 0
+   new_number = y + x,y
+   byebug
+  end
+  new_number
 end
 
 Pry.start
